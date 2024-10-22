@@ -1,0 +1,7 @@
+mode: "server"                      # client | server
+authorization:
+  password: "yourpassword"
+server:
+  address: "example.com:443"        # только хост и порт
+  path: "/vpn"                      # HTTP путь
+tun_interface: "tun55"
